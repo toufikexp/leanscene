@@ -11,7 +11,9 @@ from .gateway import (
     UnrealGateway,
     Vec3,
 )
+from .benchmark import EndToEndBenchmark, EndToEndResult
 from .measure import Measurement, canonical_json, estimate, with_envelope
+from .report import PER_CALL_LABEL, ReportRow, format_per_call_report
 from .shapers import actor_brief, asset_brief, level_summary_brief
 from .tokens import (
     DEFAULT_ENCODING,
@@ -39,6 +41,13 @@ __all__ = [
     "estimate",
     "with_envelope",
     "canonical_json",
+    # measurement report (per-call surface)
+    "format_per_call_report",
+    "ReportRow",
+    "PER_CALL_LABEL",
+    # end-to-end benchmark (free contract; premium impl out-of-tree)
+    "EndToEndResult",
+    "EndToEndBenchmark",
     # tokens
     "TokenMeter",
     "TokenCounter",

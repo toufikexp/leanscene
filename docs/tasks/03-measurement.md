@@ -17,3 +17,8 @@ Runs a representative agent task with and without LeanScene and reports true wor
 
 ## Demo asset
 The 2–3 min video shows a real before/after on a real scene using these numbers — never a slogan, never a fixed %.
+
+## Build note
+The **basic** estimator (`core/measure.py`: `estimate`, `with_envelope`, `Measurement`) landed with Task 01 and is finalized here: the full tool×fixture stability matrix (`mcp-tools/tests/test_measurement_matrix.py`), a labelled demo surface (`demo/measure_demo.py` + `core/report.py`), an honesty doc (`docs/measurement.md`), a repo-wide no-fixed-% guard (`tests/test_no_fixed_percentage.py`), and a label-surfacing test (`tests/test_measurement_label_surfaces.py`). On the seed fixtures the firehose payloads are synthetic, so absolute deltas are illustrative until real captures exist.
+
+The **end-to-end** benchmark is **premium**: per ADR-004 no premium code lives in the public repo, so only its free contract (`core/benchmark.py`: `EndToEndResult` + `EndToEndBenchmark`, deliberately not confusable with the per-call `Measurement`) is here; the benchmark itself is implemented out-of-tree.

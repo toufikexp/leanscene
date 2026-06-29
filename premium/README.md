@@ -17,6 +17,10 @@ without forking the free core:
   `SteeringGenerator` contract in `packages/steering-core/.../extension.py`
   (`(ToolsetSnapshot, ProjectManifest) -> GeneratedRuleset`, deterministic,
   regenerated on toolset change).
+- **End-to-end measurement (Task 03 / ADR-003)** → implements the
+  `EndToEndBenchmark` contract in `packages/core/.../benchmark.py`
+  (`run(task_id) -> EndToEndResult`), reporting true workflow token use for a
+  defined task — kept clearly separate from the free per-call payload delta.
 
 If you are an agent working in this repo: building any actual premium feature is
 out of scope for the public trees. Stop and confirm the boundary before adding
