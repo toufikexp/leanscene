@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leanscene-unreal-gateway"
+version = "0.0.0"
+description = "LeanScene gateway implementations: FakeGateway (fixtures) + RealGateway (Web Remote Control). The only tree that imports `unreal`."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "LeanScene" }]
+dependencies = ["leanscene-core"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

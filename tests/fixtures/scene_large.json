@@ -1,0 +1,776 @@
+{
+  "_seed": true,
+  "_note": "HAND-WRITTEN SEED (deterministically generated) \u2014 not a live Web Remote Control capture. Shape is provisional and gateway-coarse (already minimal per ADR-005; NOT the raw firehose). Replace with real captures via docs/capturing-fixtures.md.",
+  "level": {
+    "name": "L_Seed_Large"
+  },
+  "actors": [
+    {
+      "id": "sm_floor",
+      "class": "StaticMeshActor",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        8000.0,
+        8000.0,
+        10.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_0_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_0_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_0_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_0_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_0_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_0_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        -2500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_1_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_1_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_1_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_1_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_1_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_1_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        -1500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_2_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_2_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_2_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_2_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_2_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_2_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        -500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_3_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_3_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_3_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_3_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_3_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_3_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_4_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_4_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_4_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_4_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_4_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_4_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        1500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_5_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        -2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_5_1",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        -1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_5_2",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        -500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_5_3",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "sm_crate_5_4",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        1500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_5_5",
+      "class": "StaticMeshActor",
+      "loc": [
+        2500.0,
+        2500.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_0",
+      "class": "PointLight",
+      "loc": [
+        1500.0,
+        -1500.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_1",
+      "class": "PointLight",
+      "loc": [
+        1400.0,
+        -1300.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_2",
+      "class": "PointLight",
+      "loc": [
+        1300.0,
+        -1100.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_3",
+      "class": "PointLight",
+      "loc": [
+        1200.0,
+        -900.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_4",
+      "class": "PointLight",
+      "loc": [
+        1100.0,
+        -700.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_5",
+      "class": "PointLight",
+      "loc": [
+        1000.0,
+        -500.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_6",
+      "class": "PointLight",
+      "loc": [
+        900.0,
+        -300.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_ring_7",
+      "class": "PointLight",
+      "loc": [
+        800.0,
+        -100.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "light_key",
+      "class": "DirectionalLight",
+      "loc": [
+        0.0,
+        0.0,
+        2000.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "player_start",
+      "class": "PlayerStart",
+      "loc": [
+        0.0,
+        -3000.0,
+        90.0
+      ],
+      "bounds": [
+        40.0,
+        40.0,
+        90.0
+      ],
+      "flags": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Game/Meshes/SM_Floor",
+      "class": "StaticMesh",
+      "flags": []
+    },
+    {
+      "path": "/Game/Meshes/SM_Crate",
+      "class": "StaticMesh",
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "path": "/Game/Materials/M_Concrete",
+      "class": "Material",
+      "flags": []
+    },
+    {
+      "path": "/Game/Materials/M_Unused",
+      "class": "Material",
+      "flags": [
+        "unlinked"
+      ]
+    },
+    {
+      "path": "/Game/Meshes/SM_HighPoly",
+      "class": "StaticMesh",
+      "flags": [
+        "missing_lods"
+      ]
+    }
+  ],
+  "sector_hashes": {
+    "0,0": "seedhash_large_0_0",
+    "0,1": "seedhash_large_0_1",
+    "0,2": "seedhash_large_0_2",
+    "1,0": "seedhash_large_1_0",
+    "1,1": "seedhash_large_1_1",
+    "1,2": "seedhash_large_1_2",
+    "2,0": "seedhash_large_2_0",
+    "2,1": "seedhash_large_2_1",
+    "2,2": "seedhash_large_2_2"
+  }
+}

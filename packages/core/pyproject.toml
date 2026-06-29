@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leanscene-core"
+version = "0.0.0"
+description = "LeanScene free core: UnrealGateway interface + offline token meter. Pure logic, no Unreal import."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "LeanScene" }]
+# tiktoken is pinned: the vendored encoding cache blob is keyed by the vocab URL,
+# which is stable across these versions. Bumping the range may require re-vendoring.
+dependencies = ["tiktoken>=0.8,<0.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Ship the vendored offline tiktoken encoding so installs stay network-free.
+leanscene_core = ["_vendor/tiktoken_cache/*"]

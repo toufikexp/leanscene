@@ -1,0 +1,5 @@
+# Headless dev + CI dependencies. Offline at test time (tiktoken uses a vendored
+# encoding); network is only needed to install these.
+-e packages/core
+-e packages/unreal-gateway
+pytest>=8,<9

@@ -1,0 +1,32 @@
+{
+  "_seed": true,
+  "_note": "HAND-WRITTEN SEED — not a live Web Remote Control capture. Shape is provisional and gateway-coarse (already minimal per ADR-005; NOT the raw firehose). Replace with real captures via docs/capturing-fixtures.md.",
+  "level": { "name": "L_Seed_Medium" },
+  "actors": [
+    { "id": "sm_floor", "class": "StaticMeshActor", "loc": [0.0, 0.0, 0.0], "bounds": [4000.0, 4000.0, 10.0], "flags": [] },
+    { "id": "sm_wall_n", "class": "StaticMeshActor", "loc": [0.0, 2000.0, 150.0], "bounds": [4000.0, 20.0, 300.0], "flags": [] },
+    { "id": "sm_wall_s", "class": "StaticMeshActor", "loc": [0.0, -2000.0, 150.0], "bounds": [4000.0, 20.0, 300.0], "flags": [] },
+    { "id": "sm_crate_01", "class": "StaticMeshActor", "loc": [300.0, 120.0, 50.0], "bounds": [50.0, 50.0, 50.0], "flags": ["no_lod"] },
+    { "id": "sm_crate_02", "class": "StaticMeshActor", "loc": [360.0, 120.0, 50.0], "bounds": [50.0, 50.0, 50.0], "flags": ["no_lod"] },
+    { "id": "sm_barrel_01", "class": "StaticMeshActor", "loc": [-500.0, 800.0, 60.0], "bounds": [40.0, 40.0, 60.0], "flags": [] },
+    { "id": "sm_pillar_01", "class": "StaticMeshActor", "loc": [1000.0, 1000.0, 200.0], "bounds": [60.0, 60.0, 400.0], "flags": [] },
+    { "id": "sm_pillar_02", "class": "StaticMeshActor", "loc": [-1000.0, 1000.0, 200.0], "bounds": [60.0, 60.0, 400.0], "flags": [] },
+    { "id": "light_key", "class": "DirectionalLight", "loc": [0.0, 0.0, 1200.0], "bounds": [0.0, 0.0, 0.0], "flags": [] },
+    { "id": "light_fill_01", "class": "PointLight", "loc": [500.0, 500.0, 300.0], "bounds": [0.0, 0.0, 0.0], "flags": [] },
+    { "id": "light_fill_02", "class": "PointLight", "loc": [-500.0, -500.0, 300.0], "bounds": [0.0, 0.0, 0.0], "flags": [] },
+    { "id": "player_start", "class": "PlayerStart", "loc": [0.0, -1500.0, 90.0], "bounds": [40.0, 40.0, 90.0], "flags": [] }
+  ],
+  "assets": [
+    { "path": "/Game/Meshes/SM_Floor", "class": "StaticMesh", "flags": [] },
+    { "path": "/Game/Meshes/SM_Wall", "class": "StaticMesh", "flags": [] },
+    { "path": "/Game/Meshes/SM_Crate", "class": "StaticMesh", "flags": ["no_lod"] },
+    { "path": "/Game/Meshes/SM_Barrel", "class": "StaticMesh", "flags": [] },
+    { "path": "/Game/Meshes/SM_Pillar", "class": "StaticMesh", "flags": [] },
+    { "path": "/Game/Materials/M_Concrete", "class": "Material", "flags": ["unlinked"] }
+  ],
+  "sector_hashes": {
+    "0,0": "seedhash_medium_0_0",
+    "1,0": "seedhash_medium_1_0",
+    "0,1": "seedhash_medium_0_1"
+  }
+}

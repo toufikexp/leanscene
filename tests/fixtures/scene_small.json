@@ -1,0 +1,17 @@
+{
+  "_seed": true,
+  "_note": "HAND-WRITTEN SEED — not a live Web Remote Control capture. Shape is provisional and gateway-coarse (already minimal per ADR-005; NOT the raw firehose). Replace with real captures via docs/capturing-fixtures.md.",
+  "level": { "name": "L_Seed_Small" },
+  "actors": [
+    { "id": "sm_floor", "class": "StaticMeshActor", "loc": [0.0, 0.0, 0.0], "bounds": [1000.0, 1000.0, 10.0], "flags": [] },
+    { "id": "sm_crate_01", "class": "StaticMeshActor", "loc": [120.0, 0.0, 50.0], "bounds": [50.0, 50.0, 50.0], "flags": ["no_lod"] },
+    { "id": "light_key", "class": "DirectionalLight", "loc": [0.0, 0.0, 400.0], "bounds": [0.0, 0.0, 0.0], "flags": [] }
+  ],
+  "assets": [
+    { "path": "/Game/Meshes/SM_Floor", "class": "StaticMesh", "flags": [] },
+    { "path": "/Game/Meshes/SM_Crate", "class": "StaticMesh", "flags": ["no_lod"] }
+  ],
+  "sector_hashes": {
+    "0,0": "seedhash_small_0_0"
+  }
+}

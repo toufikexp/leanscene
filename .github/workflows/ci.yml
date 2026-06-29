@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  headless:
+    name: headless + offline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install (editable core + gateway + pytest)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: ADR-002 guard — no `unreal` import outside packages/unreal-gateway
+        run: python tools/check_no_unreal_import.py
+
+      - name: Headless tests (offline; @pytest.mark.editor excluded by default)
+        run: pytest

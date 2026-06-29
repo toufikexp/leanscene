@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# tiktoken's runtime cache lives OUTSIDE the repo; the offline encoding we rely on
+# is vendored under packages/core/.../_vendor/tiktoken_cache/ and IS committed.
+
+# OS / editor
+.DS_Store
+*.swp
