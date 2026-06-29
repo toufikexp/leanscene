@@ -11,6 +11,13 @@ never fork it.
 What is here:
 - `LICENSE-COMMERCIAL.md` — the commercial license note (premium is **not** MIT).
 
+Defined extension points the premium packs implement (in their private tree),
+without forking the free core:
+- **Dynamic steering engine (Task 02, lever 3 / ADR-007)** → implements the
+  `SteeringGenerator` contract in `packages/steering-core/.../extension.py`
+  (`(ToolsetSnapshot, ProjectManifest) -> GeneratedRuleset`, deterministic,
+  regenerated on toolset change).
+
 If you are an agent working in this repo: building any actual premium feature is
 out of scope for the public trees. Stop and confirm the boundary before adding
 code under `premium/` (see `CLAUDE.md` → "Stop and ask before").

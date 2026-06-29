@@ -1,0 +1,36 @@
+# LeanScene steering rules (starter) — rename to .cursorrules in your project.
+#
+# Steers an AI agent in a large Unreal Engine 5 scene toward token-efficient
+# queries instead of dumping the whole scene. Tune task names to your project.
+
+PRIME RULE
+Never pull the whole scene when a narrow query answers the question. Large
+outliner / actor list / asset registry dumps blow up the context window and
+degrade accuracy. Prefer the lean LeanScene tools below; each returns a fixed,
+minimal payload and reports its own per-call token saving.
+
+NEVER DO THESE (the firehose)
+- Do not dump the full outliner or read the entire actor list to find or count
+  actors.
+- Do not fetch a full, verbose actor description when you only need key fields.
+- Do not dump the full asset registry to find a handful of offending assets.
+- Do not take a screenshot / vision check to confirm what a cheap deterministic
+  check can confirm.
+
+USE THE LEAN TOOL FOR THE TASK
+- find / inspect actors near a point -> get_actors_in_radius (not the full actor list / outliner)
+- understand the level's structure   -> summarize_level (not an outliner dump)
+- read one actor's key fields         -> get_actor_brief (not the verbose native "describe actor")
+- find unlinked materials             -> get_unlinked_materials (not the whole asset registry)
+- find assets missing LODs            -> get_assets_missing_lods (not the whole asset registry)
+
+VERIFY BEFORE VISION
+Before any screenshot or vision check, confirm placement with the cheap exact
+checks; only fall back to vision if these cannot answer the question:
+- verify_bounds    -> is an actor's bounding box what you expect?
+- verify_overlap   -> do two actors overlap?
+- verify_transform -> is an actor at the expected location?
+
+NOTE
+This biases tool selection through descriptions and these rules only. It does not
+modify or remove the engine's native tools; simply prefer the lean ones above.

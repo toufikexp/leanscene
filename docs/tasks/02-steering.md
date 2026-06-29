@@ -19,3 +19,6 @@ A **deterministic generator**, not runtime ML.
 
 ## Out of scope
 Registry deregistration/override as a default mechanism (ADR-001). Only behind an opt-in flag where the engine cleanly supports it.
+
+## Build note
+Levers 1–2 are built and headless-tested in `packages/steering-core/` (descriptions shared with mcp-tools; static `CLAUDE.md`/`.cursorrules` starter via `static_rules()`). The "does the agent obey" parts of L1/L2 acceptance are **manual** — protocol in `docs/steering-eval.md`. Lever 3 is **premium**: per ADR-004 no premium code lives in the public repo, so only its extension-point contract (`steering-core/extension.py` `SteeringGenerator`) is free; the generator itself is implemented out-of-tree (the v1-premium build step). A repo test (`tests/test_open_core_boundary.py`) guards that `premium/` ships no `.py`.

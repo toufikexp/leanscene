@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leanscene-steering-core"
+version = "0.0.0"
+description = "LeanScene steering (free, levers 1-2): shared tuned descriptions + static CLAUDE.md/.cursorrules starter."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "LeanScene" }]
+dependencies = ["leanscene-core", "leanscene-mcp-tools"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Ship the static rule starters so static_rules() works from an installed package.
+leanscene_steering_core = ["templates/*"]

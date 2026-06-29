@@ -3,4 +3,5 @@
 -e packages/core
 -e packages/unreal-gateway
 -e packages/mcp-tools
+-e packages/steering-core
 pytest>=8,<9
