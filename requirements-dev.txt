@@ -2,4 +2,5 @@
 # encoding); network is only needed to install these.
 -e packages/core
 -e packages/unreal-gateway
+-e packages/mcp-tools
 pytest>=8,<9
