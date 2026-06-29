@@ -85,3 +85,30 @@ class UnrealGateway(ABC):
 
         Deterministic and offline for fakes.
         """
+
+
+class FirehoseSource(ABC):
+    """The verbose native payloads a lean query *avoids* — needed only by the
+    shadow estimator to compute a per-call token delta (ADR-003).
+
+    Kept separate from ``UnrealGateway`` so the data contract stays coarse and
+    minimal (ADR-002): measurement plumbing does not bloat the editor seam. A
+    gateway implementation may also implement this when it can expose the raw
+    "firehose" the native MCP tools would return for the equivalent query.
+
+    Returns are opaque ``dict``s — the real Web Remote Control payload shape is
+    experimental and is NOT modelled here. Fakes serve clearly-marked seed
+    payloads; the real implementation captures them (see docs/capturing-fixtures.md).
+    """
+
+    @abstractmethod
+    def raw_actors(self) -> list[dict]:
+        """Verbose native payload for "dump all actors" (the outliner firehose)."""
+
+    @abstractmethod
+    def raw_actor(self, actor_id: str) -> Optional[dict]:
+        """Verbose native payload for one actor, or ``None`` if absent."""
+
+    @abstractmethod
+    def raw_assets(self) -> list[dict]:
+        """Verbose native payload for "dump all assets" (the asset-registry firehose)."""

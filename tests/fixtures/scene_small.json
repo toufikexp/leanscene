@@ -1,17 +1,413 @@
 {
   "_seed": true,
-  "_note": "HAND-WRITTEN SEED — not a live Web Remote Control capture. Shape is provisional and gateway-coarse (already minimal per ADR-005; NOT the raw firehose). Replace with real captures via docs/capturing-fixtures.md.",
-  "level": { "name": "L_Seed_Small" },
+  "_note": "HAND-WRITTEN SEED \u2014 not a live Web Remote Control capture. Shape is provisional and gateway-coarse (already minimal per ADR-005; NOT the raw firehose). Replace with real captures via docs/capturing-fixtures.md.",
+  "level": {
+    "name": "L_Seed_Small"
+  },
   "actors": [
-    { "id": "sm_floor", "class": "StaticMeshActor", "loc": [0.0, 0.0, 0.0], "bounds": [1000.0, 1000.0, 10.0], "flags": [] },
-    { "id": "sm_crate_01", "class": "StaticMeshActor", "loc": [120.0, 0.0, 50.0], "bounds": [50.0, 50.0, 50.0], "flags": ["no_lod"] },
-    { "id": "light_key", "class": "DirectionalLight", "loc": [0.0, 0.0, 400.0], "bounds": [0.0, 0.0, 0.0], "flags": [] }
+    {
+      "id": "sm_floor",
+      "class": "StaticMeshActor",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        1000.0,
+        1000.0,
+        10.0
+      ],
+      "flags": []
+    },
+    {
+      "id": "sm_crate_01",
+      "class": "StaticMeshActor",
+      "loc": [
+        120.0,
+        0.0,
+        50.0
+      ],
+      "bounds": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "flags": [
+        "no_lod"
+      ]
+    },
+    {
+      "id": "light_key",
+      "class": "DirectionalLight",
+      "loc": [
+        0.0,
+        0.0,
+        400.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": []
+    }
   ],
   "assets": [
-    { "path": "/Game/Meshes/SM_Floor", "class": "StaticMesh", "flags": [] },
-    { "path": "/Game/Meshes/SM_Crate", "class": "StaticMesh", "flags": ["no_lod"] }
+    {
+      "path": "/Game/Meshes/SM_Floor",
+      "class": "StaticMesh",
+      "flags": []
+    },
+    {
+      "path": "/Game/Meshes/SM_Crate",
+      "class": "StaticMesh",
+      "flags": [
+        "no_lod"
+      ]
+    }
   ],
   "sector_hashes": {
     "0,0": "seedhash_small_0_0"
+  },
+  "firehose": {
+    "_seed": true,
+    "_note": "SYNTHETIC verbose seed payload (inflated from the coarse seed actors/assets) \u2014 NOT a real Web Remote Control capture. Shape is provisional; any token delta computed against it is illustrative until real captures exist (docs/capturing-fixtures.md).",
+    "actors": {
+      "sm_floor": {
+        "Name": "sm_floor",
+        "DisplayName": "Sm Floor",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_floor",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 1000.0,
+            "Y": 1000.0,
+            "Z": 10.0
+          },
+          "SphereRadius": 1414.249
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_floor_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_01": {
+        "Name": "sm_crate_01",
+        "DisplayName": "Sm Crate 01",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_01",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 120.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 120.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 120.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_01_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "light_key": {
+        "Name": "light_key",
+        "DisplayName": "Light Key",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_key",
+        "Class": "/Script/Engine.DirectionalLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_key_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      }
+    },
+    "assets": [
+      {
+        "ObjectPath": "/Game/Meshes/SM_Floor",
+        "PackageName": "/Game/Meshes",
+        "AssetName": "SM_Floor",
+        "AssetClass": "/Script/Engine.StaticMesh",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "StaticMesh"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "StaticMesh",
+          "PrimaryAssetName": "SM_Floor"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": []
+      },
+      {
+        "ObjectPath": "/Game/Meshes/SM_Crate",
+        "PackageName": "/Game/Meshes",
+        "AssetName": "SM_Crate",
+        "AssetClass": "/Script/Engine.StaticMesh",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "StaticMesh"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "StaticMesh",
+          "PrimaryAssetName": "SM_Crate"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": [
+          "no_lod"
+        ]
+      }
+    ]
   }
 }

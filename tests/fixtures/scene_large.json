@@ -772,5 +772,4491 @@
     "2,0": "seedhash_large_2_0",
     "2,1": "seedhash_large_2_1",
     "2,2": "seedhash_large_2_2"
+  },
+  "firehose": {
+    "_seed": true,
+    "_note": "SYNTHETIC verbose seed payload (inflated from the coarse seed actors/assets) \u2014 NOT a real Web Remote Control capture. Shape is provisional; any token delta computed against it is illustrative until real captures exist (docs/capturing-fixtures.md).",
+    "actors": {
+      "sm_floor": {
+        "Name": "sm_floor",
+        "DisplayName": "Sm Floor",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_floor",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 8000.0,
+            "Y": 8000.0,
+            "Z": 10.0
+          },
+          "SphereRadius": 11313.713
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_floor_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_0_0": {
+        "Name": "sm_crate_0_0",
+        "DisplayName": "Sm Crate 0 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_0_1": {
+        "Name": "sm_crate_0_1",
+        "DisplayName": "Sm Crate 0 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_0_2": {
+        "Name": "sm_crate_0_2",
+        "DisplayName": "Sm Crate 0 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_0_3": {
+        "Name": "sm_crate_0_3",
+        "DisplayName": "Sm Crate 0 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_0_4": {
+        "Name": "sm_crate_0_4",
+        "DisplayName": "Sm Crate 0 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_0_5": {
+        "Name": "sm_crate_0_5",
+        "DisplayName": "Sm Crate 0 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_0_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_0_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_1_0": {
+        "Name": "sm_crate_1_0",
+        "DisplayName": "Sm Crate 1 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_1_1": {
+        "Name": "sm_crate_1_1",
+        "DisplayName": "Sm Crate 1 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_1_2": {
+        "Name": "sm_crate_1_2",
+        "DisplayName": "Sm Crate 1 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_1_3": {
+        "Name": "sm_crate_1_3",
+        "DisplayName": "Sm Crate 1 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_1_4": {
+        "Name": "sm_crate_1_4",
+        "DisplayName": "Sm Crate 1 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_1_5": {
+        "Name": "sm_crate_1_5",
+        "DisplayName": "Sm Crate 1 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_1_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_1_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_2_0": {
+        "Name": "sm_crate_2_0",
+        "DisplayName": "Sm Crate 2 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_2_1": {
+        "Name": "sm_crate_2_1",
+        "DisplayName": "Sm Crate 2 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_2_2": {
+        "Name": "sm_crate_2_2",
+        "DisplayName": "Sm Crate 2 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_2_3": {
+        "Name": "sm_crate_2_3",
+        "DisplayName": "Sm Crate 2 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_2_4": {
+        "Name": "sm_crate_2_4",
+        "DisplayName": "Sm Crate 2 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_2_5": {
+        "Name": "sm_crate_2_5",
+        "DisplayName": "Sm Crate 2 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_2_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": -500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": -500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": -500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_2_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_3_0": {
+        "Name": "sm_crate_3_0",
+        "DisplayName": "Sm Crate 3 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_3_1": {
+        "Name": "sm_crate_3_1",
+        "DisplayName": "Sm Crate 3 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_3_2": {
+        "Name": "sm_crate_3_2",
+        "DisplayName": "Sm Crate 3 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_3_3": {
+        "Name": "sm_crate_3_3",
+        "DisplayName": "Sm Crate 3 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_3_4": {
+        "Name": "sm_crate_3_4",
+        "DisplayName": "Sm Crate 3 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_3_5": {
+        "Name": "sm_crate_3_5",
+        "DisplayName": "Sm Crate 3 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_3_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_3_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_4_0": {
+        "Name": "sm_crate_4_0",
+        "DisplayName": "Sm Crate 4 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_4_1": {
+        "Name": "sm_crate_4_1",
+        "DisplayName": "Sm Crate 4 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_4_2": {
+        "Name": "sm_crate_4_2",
+        "DisplayName": "Sm Crate 4 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_4_3": {
+        "Name": "sm_crate_4_3",
+        "DisplayName": "Sm Crate 4 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_4_4": {
+        "Name": "sm_crate_4_4",
+        "DisplayName": "Sm Crate 4 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_4_5": {
+        "Name": "sm_crate_4_5",
+        "DisplayName": "Sm Crate 4 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_4_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_4_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_5_0": {
+        "Name": "sm_crate_5_0",
+        "DisplayName": "Sm Crate 5 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_0",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": -2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_5_1": {
+        "Name": "sm_crate_5_1",
+        "DisplayName": "Sm Crate 5 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_1",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": -1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_5_2": {
+        "Name": "sm_crate_5_2",
+        "DisplayName": "Sm Crate 5 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_2",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": -500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_5_3": {
+        "Name": "sm_crate_5_3",
+        "DisplayName": "Sm Crate 5 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_3",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": 500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": [
+          "no_lod"
+        ]
+      },
+      "sm_crate_5_4": {
+        "Name": "sm_crate_5_4",
+        "DisplayName": "Sm Crate 5 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_4",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": 1500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "sm_crate_5_5": {
+        "Name": "sm_crate_5_5",
+        "DisplayName": "Sm Crate 5 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.sm_crate_5_5",
+        "Class": "/Script/Engine.StaticMeshActor",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "BoxExtent": {
+            "X": 50.0,
+            "Y": 50.0,
+            "Z": 50.0
+          },
+          "SphereRadius": 86.603
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 2500.0,
+            "Y": 2500.0,
+            "Z": 50.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/sm_crate_5_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_0": {
+        "Name": "light_ring_0",
+        "DisplayName": "Light Ring 0",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_0",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1500.0,
+            "Y": -1500.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_0_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_1": {
+        "Name": "light_ring_1",
+        "DisplayName": "Light Ring 1",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_1",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1400.0,
+            "Y": -1300.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1400.0,
+            "Y": -1300.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1400.0,
+            "Y": -1300.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_1_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_2": {
+        "Name": "light_ring_2",
+        "DisplayName": "Light Ring 2",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_2",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1300.0,
+            "Y": -1100.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1300.0,
+            "Y": -1100.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1300.0,
+            "Y": -1100.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_2_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_3": {
+        "Name": "light_ring_3",
+        "DisplayName": "Light Ring 3",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_3",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1200.0,
+            "Y": -900.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1200.0,
+            "Y": -900.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1200.0,
+            "Y": -900.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_3_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_4": {
+        "Name": "light_ring_4",
+        "DisplayName": "Light Ring 4",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_4",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1100.0,
+            "Y": -700.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1100.0,
+            "Y": -700.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1100.0,
+            "Y": -700.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_4_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_5": {
+        "Name": "light_ring_5",
+        "DisplayName": "Light Ring 5",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_5",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 1000.0,
+            "Y": -500.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 1000.0,
+            "Y": -500.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 1000.0,
+            "Y": -500.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_5_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_6": {
+        "Name": "light_ring_6",
+        "DisplayName": "Light Ring 6",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_6",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 900.0,
+            "Y": -300.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 900.0,
+            "Y": -300.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 900.0,
+            "Y": -300.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_6_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_ring_7": {
+        "Name": "light_ring_7",
+        "DisplayName": "Light Ring 7",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_ring_7",
+        "Class": "/Script/Engine.PointLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 800.0,
+            "Y": -100.0,
+            "Z": 400.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 800.0,
+            "Y": -100.0,
+            "Z": 400.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 800.0,
+            "Y": -100.0,
+            "Z": 400.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_ring_7_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "light_key": {
+        "Name": "light_key",
+        "DisplayName": "Light Key",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.light_key",
+        "Class": "/Script/Engine.DirectionalLight",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 2000.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 2000.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 2000.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/light_key_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      },
+      "player_start": {
+        "Name": "player_start",
+        "DisplayName": "Player Start",
+        "ObjectPath": "/Game/Maps/Seed.Seed:PersistentLevel.player_start",
+        "Class": "/Script/Engine.PlayerStart",
+        "Outer": "PersistentLevel",
+        "bHidden": false,
+        "bHiddenEd": false,
+        "bIsEditorOnlyActor": false,
+        "Tags": [],
+        "Folder": "",
+        "Layers": [],
+        "Transform": {
+          "Translation": {
+            "X": 0.0,
+            "Y": -3000.0,
+            "Z": 90.0
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0,
+            "Quat": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            }
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Bounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": -3000.0,
+            "Z": 90.0
+          },
+          "BoxExtent": {
+            "X": 40.0,
+            "Y": 40.0,
+            "Z": 90.0
+          },
+          "SphereRadius": 106.301
+        },
+        "RootComponent": {
+          "Name": "RootComponent0",
+          "Class": "/Script/Engine.SceneComponent",
+          "Mobility": "Static",
+          "RelativeLocation": {
+            "X": 0.0,
+            "Y": -3000.0,
+            "Z": 90.0
+          },
+          "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RelativeScale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "AttachChildren": [
+            {
+              "Name": "StaticMeshComponent0",
+              "Class": "/Script/Engine.StaticMeshComponent",
+              "StaticMesh": "/Game/Meshes/player_start_mesh",
+              "Materials": [
+                {
+                  "Slot": 0,
+                  "Material": "/Game/Materials/M_Default"
+                }
+              ],
+              "bCastShadow": true,
+              "bVisible": true,
+              "OverrideMaterials": [],
+              "CollisionProfileName": "BlockAll"
+            }
+          ]
+        },
+        "ReplicationSettings": {
+          "bReplicates": false,
+          "bAlwaysRelevant": false,
+          "NetDormancy": "Awake"
+        },
+        "flags": []
+      }
+    },
+    "assets": [
+      {
+        "ObjectPath": "/Game/Meshes/SM_Floor",
+        "PackageName": "/Game/Meshes",
+        "AssetName": "SM_Floor",
+        "AssetClass": "/Script/Engine.StaticMesh",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "StaticMesh"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "StaticMesh",
+          "PrimaryAssetName": "SM_Floor"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": []
+      },
+      {
+        "ObjectPath": "/Game/Meshes/SM_Crate",
+        "PackageName": "/Game/Meshes",
+        "AssetName": "SM_Crate",
+        "AssetClass": "/Script/Engine.StaticMesh",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "StaticMesh"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "StaticMesh",
+          "PrimaryAssetName": "SM_Crate"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": [
+          "no_lod"
+        ]
+      },
+      {
+        "ObjectPath": "/Game/Materials/M_Concrete",
+        "PackageName": "/Game/Materials",
+        "AssetName": "M_Concrete",
+        "AssetClass": "/Script/Engine.Material",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "Material"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "Material",
+          "PrimaryAssetName": "M_Concrete"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": []
+      },
+      {
+        "ObjectPath": "/Game/Materials/M_Unused",
+        "PackageName": "/Game/Materials",
+        "AssetName": "M_Unused",
+        "AssetClass": "/Script/Engine.Material",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "Material"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "Material",
+          "PrimaryAssetName": "M_Unused"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": [
+          "unlinked"
+        ]
+      },
+      {
+        "ObjectPath": "/Game/Meshes/SM_HighPoly",
+        "PackageName": "/Game/Meshes",
+        "AssetName": "SM_HighPoly",
+        "AssetClass": "/Script/Engine.StaticMesh",
+        "AssetClassPath": {
+          "PackageName": "/Script/Engine",
+          "AssetName": "StaticMesh"
+        },
+        "PrimaryAssetId": {
+          "PrimaryAssetType": "StaticMesh",
+          "PrimaryAssetName": "SM_HighPoly"
+        },
+        "TagsAndValues": {
+          "Referencers": [],
+          "Dependencies": [
+            "/Game/Materials/M_Default",
+            "/Engine/BasicShapes/Cube"
+          ],
+          "DiskSize": 1048576,
+          "LODGroup": "None",
+          "NumLODs": 1
+        },
+        "bIsRedirector": false,
+        "flags": [
+          "missing_lods"
+        ]
+      }
+    ]
   }
 }

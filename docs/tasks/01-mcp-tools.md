@@ -25,3 +25,5 @@
 
 ## Notes
 The `verify_*` group is a token-saving pattern (cheap deterministic check before expensive vision) — treat it as first-class, not an afterthought.
+
+**Build note.** The per-call measurement envelope requires the **basic shadow estimator** (Task 03, free tier), which `docs/ROADMAP.md` flags as overlapping this task and living in `core`. It landed here (`core/measure.py` + a `FirehoseSource` interface + seed firehose fixtures) to satisfy the envelope. Task 03's **end-to-end (premium)** benchmark is untouched. On the seed fixtures the firehose payloads are synthetic seeds, so the deltas are illustrative until real captures exist.

@@ -14,7 +14,13 @@ from __future__ import annotations
 
 from typing import Optional
 
-from leanscene_core import ActorRecord, AssetRecord, LevelSummary, UnrealGateway
+from leanscene_core import (
+    ActorRecord,
+    AssetRecord,
+    FirehoseSource,
+    LevelSummary,
+    UnrealGateway,
+)
 
 # ADR-002: ``unreal`` is allowed here and ONLY here. Guarded so this module still
 # imports headless (where ``unreal`` is absent); the methods are stubs regardless.
@@ -32,7 +38,7 @@ _TODO = (
 )
 
 
-class RealGateway(UnrealGateway):
+class RealGateway(UnrealGateway, FirehoseSource):
     """Web Remote Control implementation. Not usable headless (needs a live editor)."""
 
     def __init__(self, base_url: str = "http://127.0.0.1:30010") -> None:
@@ -53,3 +59,15 @@ class RealGateway(UnrealGateway):
 
     def get_world_state_hash(self, sector: str) -> str:
         raise NotImplementedError(_TODO.format(method="get_world_state_hash"))
+
+    # -- FirehoseSource: the raw native payloads for the per-call estimator ----
+    # TODO(editor): capture the real verbose Web Remote Control responses and
+    # record their shape (docs/capturing-fixtures.md) before trusting any delta.
+    def raw_actors(self) -> list[dict]:
+        raise NotImplementedError(_TODO.format(method="raw_actors"))
+
+    def raw_actor(self, actor_id: str) -> Optional[dict]:
+        raise NotImplementedError(_TODO.format(method="raw_actor"))
+
+    def raw_assets(self) -> list[dict]:
+        raise NotImplementedError(_TODO.format(method="raw_assets"))

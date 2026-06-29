@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leanscene-mcp-tools"
+version = "0.0.0"
+description = "LeanScene v1 MCP tool set: fixed minimal schemas + per-call measurement envelope, on the UnrealGateway."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "LeanScene" }]
+dependencies = ["leanscene-core"]
+# NOTE: the FastMCP runtime is intentionally NOT a hard dependency. The tool logic
+# is pure and needs only core; the FastMCP adapter (server.py) is a stub and the
+# exact package is unverified. Wire it as an optional extra once confirmed.
+# [project.optional-dependencies]
+# mcp = ["fastmcp"]   # TODO(verify package + API)
+
+[tool.setuptools.packages.find]
+where = ["src"]

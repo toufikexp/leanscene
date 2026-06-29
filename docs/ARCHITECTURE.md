@@ -31,7 +31,7 @@ The heart. Contains:
 - **`UnrealGateway`** — the one interface to the editor. Methods are coarse and few: `list_actors()`, `get_actor(id)`, `get_level_summary()`, `get_assets()`, `get_world_state_hash(sector)`, etc. Returns plain dicts/dataclasses, not UE objects.
 - **Schema shapers** — turn raw gateway payloads into fixed, minimal output schemas (the `*_brief` shapes). Token-budget-by-construction lives here.
 - **Token meter** — wraps tiktoken + Anthropic counting. Pure function: bytes/string → token count. Offline.
-- **Shadow estimator** — given a lean result and the raw firehose payload the gateway also exposes, compute the **per-call** token delta. Pure, deterministic.
+- **Shadow estimator** — given a lean result and the raw firehose payload, compute the **per-call** token delta. Pure, deterministic. The firehose payload is exposed via a separate `FirehoseSource` interface (`raw_actors` / `raw_actor` / `raw_assets`) that gateways implement, so measurement plumbing stays off the coarse `UnrealGateway` contract.
 - **Diff engine** (used by the premium cache) — sector hashing + change-detection primitives. Kept in free core because they are generic; the *caching policy* that uses them is premium.
 
 `core` imports nothing from Unreal. This is enforced by an import check in CI.

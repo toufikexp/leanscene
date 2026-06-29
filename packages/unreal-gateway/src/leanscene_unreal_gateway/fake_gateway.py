@@ -11,7 +11,13 @@ import json
 from pathlib import Path
 from typing import Optional, Union
 
-from leanscene_core import ActorRecord, AssetRecord, LevelSummary, UnrealGateway
+from leanscene_core import (
+    ActorRecord,
+    AssetRecord,
+    FirehoseSource,
+    LevelSummary,
+    UnrealGateway,
+)
 
 
 def default_fixtures_dir(start: Optional[Path] = None) -> Path:
@@ -27,14 +33,22 @@ def default_fixtures_dir(start: Optional[Path] = None) -> Path:
     raise FileNotFoundError("could not locate tests/fixtures (run inside the repo)")
 
 
-class FakeGateway(UnrealGateway):
-    """A gateway backed by an in-memory scene dict (loaded from a fixture file)."""
+class FakeGateway(UnrealGateway, FirehoseSource):
+    """A gateway backed by an in-memory scene dict (loaded from a fixture file).
+
+    Also implements ``FirehoseSource`` by serving the fixture's ``firehose``
+    section (verbose seed payloads) so the shadow estimator has a native
+    equivalent to measure against headless.
+    """
 
     def __init__(self, scene: dict) -> None:
         self._scene = scene
         self._actors = [self._actor(a) for a in scene.get("actors", [])]
         self._actors_by_id = {a.id: a for a in self._actors}
         self._assets = [self._asset(a) for a in scene.get("assets", [])]
+        firehose = scene.get("firehose", {})
+        self._raw_actors_by_id = dict(firehose.get("actors", {}))
+        self._raw_assets = list(firehose.get("assets", []))
 
     # -- construction helpers ------------------------------------------------
     @classmethod
@@ -101,3 +115,23 @@ class FakeGateway(UnrealGateway):
             sort_keys=True,
         ).encode("utf-8")
         return hashlib.sha256(payload).hexdigest()
+
+    # -- FirehoseSource contract (verbose seed payloads) ----------------------
+    def _require_firehose(self) -> None:
+        if "firehose" not in self._scene:
+            raise KeyError(
+                "fixture has no 'firehose' section; the shadow estimator needs the "
+                "verbose native payload to measure against (see tests/fixtures/README.md)"
+            )
+
+    def raw_actors(self) -> list[dict]:
+        self._require_firehose()
+        return list(self._raw_actors_by_id.values())
+
+    def raw_actor(self, actor_id: str) -> Optional[dict]:
+        self._require_firehose()
+        return self._raw_actors_by_id.get(actor_id)
+
+    def raw_assets(self) -> list[dict]:
+        self._require_firehose()
+        return list(self._raw_assets)

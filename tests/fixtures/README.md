@@ -8,10 +8,17 @@ exists (Task 00).
 - `scene_medium.json` — ~12 actors.
 - `scene_large.json` — ~47 actors (deterministically generated seed).
 
-Each file is marked `"_seed": true` with a `"_note"` saying so. The shape is the
-**gateway-coarse** `UnrealGateway` view (already minimal per ADR-005) — it is NOT
-the raw Web Remote Control "firehose". The firehose payloads needed by the shadow
-estimator are a separate capture (Task 03).
+Each file is marked `"_seed": true` with a `"_note"` saying so. The top-level
+sections (`level`, `actors`, `assets`, `sector_hashes`) are the **gateway-coarse**
+`UnrealGateway` view (already minimal per ADR-005).
+
+Each file also has a **`firehose`** section: verbose, redundant payloads that stand
+in for the native Web Remote Control "dump everything" response, served by
+`FakeGateway` via the `FirehoseSource` interface so the shadow estimator has a
+native equivalent to measure against. These firehose payloads are **synthetic
+seeds** (deterministically inflated from the coarse records), also marked
+`"_seed": true` — their shape is provisional and any per-call token delta computed
+against them is **illustrative until real captures exist**.
 
 ⚠️ The exact payload shape is **provisional**. It was not verified against a live
 editor (project constraint #1: verify against a captured fixture, never memory).
